@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224C1E661B78A7B100B5B919 /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C1E651B78A7B100B5B919 /* BaseTabBarViewController.swift */; };
 		22FB577F1B74A7F70057AD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB577E1B74A7F70057AD5A /* AppDelegate.swift */; };
 		22FB57811B74A7F70057AD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB57801B74A7F70057AD5A /* ViewController.swift */; };
-		22FB57841B74A7F70057AD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FB57821B74A7F70057AD5A /* Main.storyboard */; };
 		22FB57861B74A7F70057AD5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FB57851B74A7F70057AD5A /* Images.xcassets */; };
 		22FB57891B74A7F70057AD5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22FB57871B74A7F70057AD5A /* LaunchScreen.xib */; };
 		22FB57951B74A7F70057AD5A /* NoStroyBoardTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB57941B74A7F70057AD5A /* NoStroyBoardTestTests.swift */; };
@@ -26,11 +26,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		224C1E651B78A7B100B5B919 /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 		22FB57791B74A7F70057AD5A /* NoStroyBoardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoStroyBoardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB577D1B74A7F70057AD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22FB577E1B74A7F70057AD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FB57801B74A7F70057AD5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22FB57831B74A7F70057AD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22FB57851B74A7F70057AD5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22FB57881B74A7F70057AD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		22FB578E1B74A7F70057AD5A /* NoStroyBoardTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoStroyBoardTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +59,7 @@
 		22FB57701B74A7F60057AD5A = {
 			isa = PBXGroup;
 			children = (
+				224C1E651B78A7B100B5B919 /* BaseTabBarViewController.swift */,
 				22FB577B1B74A7F70057AD5A /* NoStroyBoardTest */,
 				22FB57911B74A7F70057AD5A /* NoStroyBoardTestTests */,
 				22FB577A1B74A7F70057AD5A /* Products */,
@@ -79,7 +80,6 @@
 			children = (
 				22FB577E1B74A7F70057AD5A /* AppDelegate.swift */,
 				22FB57801B74A7F70057AD5A /* ViewController.swift */,
-				22FB57821B74A7F70057AD5A /* Main.storyboard */,
 				22FB57851B74A7F70057AD5A /* Images.xcassets */,
 				22FB57871B74A7F70057AD5A /* LaunchScreen.xib */,
 				22FB577C1B74A7F70057AD5A /* Supporting Files */,
@@ -192,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22FB57841B74A7F70057AD5A /* Main.storyboard in Resources */,
 				22FB57891B74A7F70057AD5A /* LaunchScreen.xib in Resources */,
 				22FB57861B74A7F70057AD5A /* Images.xcassets in Resources */,
 			);
@@ -214,6 +213,7 @@
 			files = (
 				22FB57811B74A7F70057AD5A /* ViewController.swift in Sources */,
 				22FB577F1B74A7F70057AD5A /* AppDelegate.swift in Sources */,
+				224C1E661B78A7B100B5B919 /* BaseTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +236,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		22FB57821B74A7F70057AD5A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22FB57831B74A7F70057AD5A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		22FB57871B74A7F70057AD5A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,6 +403,7 @@
 				22FB579A1B74A7F70057AD5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22FB579B1B74A7F70057AD5A /* Build configuration list for PBXNativeTarget "NoStroyBoardTestTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +412,7 @@
 				22FB579D1B74A7F70057AD5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

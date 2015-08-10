@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    view.backgroundColor = UIColor.yellowColor()
+    let textLabel = UILabel(frame: CGRect(x: view.frame.width / 2 - 20, y: view.frame.height / 2 - 20, width: 40, height: 40))
+    textLabel.text = "Helllllllo"
+    view.addSubview(textLabel)
     // Do any additional setup after loading the view, typically from a nib.
   }
 
