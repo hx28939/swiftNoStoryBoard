@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>93954144-4317-4ACB-BF59-8C64DD24F6D9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NoStroyBoardTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F23D755AB9F24C54E19B188DF237B3283ACD27E8</key>
+		<string>github.com:hx28939/swiftNoStoryBoard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NoStroyBoardTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F23D755AB9F24C54E19B188DF237B3283ACD27E8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:hx28939/swiftNoStoryBoard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F23D755AB9F24C54E19B188DF237B3283ACD27E8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F23D755AB9F24C54E19B188DF237B3283ACD27E8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NoStroyBoardTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

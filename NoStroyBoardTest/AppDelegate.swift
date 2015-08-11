@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     window = UIWindow(frame: UIScreen.mainScreen().bounds)
     
-    var mainViewController = BaseTabBarViewController()
+    var mainViewController = createTabBar()
     
     navigationController = UINavigationController(rootViewController: mainViewController)
     window?.rootViewController = navigationController
@@ -28,6 +28,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // Override point for customization after application launch.
     return true
+  }
+  
+  func createTabBar() -> BaseTabBarViewController {
+    let firstVC = ViewController()
+    let secondVC = SecondViewController(nibName: "SecondViewController", bundle: nil)
+    
+    let tbc = BaseTabBarViewController()
+    tbc.viewControllers = [firstVC, secondVC]
+    return tbc
   }
   
   func applicationWillResignActive(application: UIApplication) {
