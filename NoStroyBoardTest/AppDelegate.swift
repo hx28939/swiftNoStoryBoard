@@ -14,7 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
   var navigationController: UINavigationController?
   
-  
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     
     window = UIWindow(frame: UIScreen.mainScreen().bounds)
@@ -22,9 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var mainViewController = createTabBar()
     
     navigationController = UINavigationController(rootViewController: mainViewController)
+    
     window?.rootViewController = navigationController
     
     window?.makeKeyAndVisible()
+    
+    //application.statusBarHidden = true
+    
     
     // Override point for customization after application launch.
     return true
@@ -32,7 +35,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func createTabBar() -> BaseTabBarViewController {
     let firstVC = ViewController()
-    let secondVC = SecondViewController(nibName: "SecondViewController", bundle: nil)
+    firstVC.tabBarItem.image = UIImage(named: "tabbar-home")
+    firstVC.tabBarItem.selectedImage = UIImage(named: "tabbar-home-down")
+    firstVC.title = "首页"
+    let secondVC = SecondViewController()
+    secondVC.tabBarItem.image = UIImage(named: "tabbar-user")
+    secondVC.tabBarItem.selectedImage = UIImage(named: "tabbar-user-down")
+    secondVC.title = "用户"
     
     let tbc = BaseTabBarViewController()
     tbc.viewControllers = [firstVC, secondVC]
