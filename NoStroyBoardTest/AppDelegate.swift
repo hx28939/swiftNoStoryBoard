@@ -43,8 +43,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     secondVC.tabBarItem.selectedImage = UIImage(named: "tabbar-user-down")
     secondVC.title = "用户"
     
+    let thirdVC = ThirdViewController()
+    thirdVC.tabBarItem.image = UIImage(named: "tabbar-user")
+    thirdVC.tabBarItem.selectedImage = UIImage(named: "tabbar-user-down")
+    thirdVC.title = "三号"
+    
     let tbc = BaseTabBarViewController()
-    tbc.viewControllers = [firstVC, secondVC]
+    tbc.viewControllers = [firstVC, secondVC, thirdVC]
     return tbc
   }
   

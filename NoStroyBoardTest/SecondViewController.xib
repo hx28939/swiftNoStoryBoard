@@ -41,9 +41,6 @@
                 <constraint firstAttribute="trailing" secondItem="XE8-ws-JR1" secondAttribute="trailing" id="KYm-GA-AXF"/>
                 <constraint firstItem="Bv4-3e-gme" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Pdi-Qs-UbU"/>
             </constraints>
-            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
         </view>
     </objects>
 </document>

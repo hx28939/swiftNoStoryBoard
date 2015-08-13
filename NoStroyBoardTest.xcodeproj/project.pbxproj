@@ -12,6 +12,11 @@
 		223F9E0D1B7AF3120068BABD /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F9E0C1B7AF3120068BABD /* BaseTabBarViewController.swift */; };
 		223F9E101B7B24B10068BABD /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F9E0E1B7B24B10068BABD /* TestTableViewCell.swift */; };
 		223F9E111B7B24B10068BABD /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223F9E0F1B7B24B10068BABD /* TestTableViewCell.xib */; };
+		223F9E141B7B3FBB0068BABD /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F9E121B7B3FBB0068BABD /* ThirdViewController.swift */; };
+		223F9E151B7B3FBB0068BABD /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223F9E131B7B3FBB0068BABD /* ThirdViewController.xib */; };
+		223F9E171B7C48500068BABD /* SpringFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F9E161B7C48500068BABD /* SpringFlowLayout.swift */; };
+		223F9E1A1B7C71910068BABD /* ThirdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F9E181B7C71910068BABD /* ThirdCollectionViewCell.swift */; };
+		223F9E1B1B7C71910068BABD /* ThirdCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223F9E191B7C71910068BABD /* ThirdCollectionViewCell.xib */; };
 		22FB577F1B74A7F70057AD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB577E1B74A7F70057AD5A /* AppDelegate.swift */; };
 		22FB57811B74A7F70057AD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB57801B74A7F70057AD5A /* ViewController.swift */; };
 		22FB57861B74A7F70057AD5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FB57851B74A7F70057AD5A /* Images.xcassets */; };
@@ -35,6 +40,11 @@
 		223F9E0C1B7AF3120068BABD /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 		223F9E0E1B7B24B10068BABD /* TestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 		223F9E0F1B7B24B10068BABD /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		223F9E121B7B3FBB0068BABD /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		223F9E131B7B3FBB0068BABD /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		223F9E161B7C48500068BABD /* SpringFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringFlowLayout.swift; sourceTree = "<group>"; };
+		223F9E181B7C71910068BABD /* ThirdCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCollectionViewCell.swift; sourceTree = "<group>"; };
+		223F9E191B7C71910068BABD /* ThirdCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdCollectionViewCell.xib; sourceTree = "<group>"; };
 		22FB57791B74A7F70057AD5A /* NoStroyBoardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoStroyBoardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB577D1B74A7F70057AD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22FB577E1B74A7F70057AD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +99,11 @@
 				223F9E0C1B7AF3120068BABD /* BaseTabBarViewController.swift */,
 				223F9E081B79E6F80068BABD /* SecondViewController.swift */,
 				223F9E091B79E6F80068BABD /* SecondViewController.xib */,
+				223F9E121B7B3FBB0068BABD /* ThirdViewController.swift */,
+				223F9E131B7B3FBB0068BABD /* ThirdViewController.xib */,
+				223F9E181B7C71910068BABD /* ThirdCollectionViewCell.swift */,
+				223F9E191B7C71910068BABD /* ThirdCollectionViewCell.xib */,
+				223F9E161B7C48500068BABD /* SpringFlowLayout.swift */,
 				223F9E0E1B7B24B10068BABD /* TestTableViewCell.swift */,
 				223F9E0F1B7B24B10068BABD /* TestTableViewCell.xib */,
 				22FB57801B74A7F70057AD5A /* ViewController.swift */,
@@ -204,9 +219,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223F9E1B1B7C71910068BABD /* ThirdCollectionViewCell.xib in Resources */,
 				22FB57891B74A7F70057AD5A /* LaunchScreen.xib in Resources */,
 				223F9E111B7B24B10068BABD /* TestTableViewCell.xib in Resources */,
 				22FB57861B74A7F70057AD5A /* Images.xcassets in Resources */,
+				223F9E151B7B3FBB0068BABD /* ThirdViewController.xib in Resources */,
 				223F9E0B1B79E6F80068BABD /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,10 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223F9E171B7C48500068BABD /* SpringFlowLayout.swift in Sources */,
 				223F9E0A1B79E6F80068BABD /* SecondViewController.swift in Sources */,
+				223F9E1A1B7C71910068BABD /* ThirdCollectionViewCell.swift in Sources */,
 				22FB57811B74A7F70057AD5A /* ViewController.swift in Sources */,
 				22FB577F1B74A7F70057AD5A /* AppDelegate.swift in Sources */,
 				223F9E0D1B7AF3120068BABD /* BaseTabBarViewController.swift in Sources */,
+				223F9E141B7B3FBB0068BABD /* ThirdViewController.swift in Sources */,
 				223F9E101B7B24B10068BABD /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

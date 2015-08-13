@@ -9,18 +9,13 @@
 import UIKit
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+  
   @IBOutlet weak var tableView: UITableView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-      tableView.registerNib(UINib(nibName: "TestTableViewCell", bundle: nil), forCellReuseIdentifier: "TestTableViewCell")
+  override func viewDidLoad() {
+    super.viewDidLoad()
 
-      self.edgesForExtendedLayout = UIRectEdge.None
-      
-      navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
-      navigationController?.navigationBar.shadowImage = UIImage()
-      navigationController?.navigationBar.translucent = true
-    }
+    tableView.registerNib(UINib(nibName: "TestTableViewCell", bundle: nil), forCellReuseIdentifier: "TestTableViewCell")
+  }
   
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
     super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -35,9 +30,9 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
   }
   
   required init(coder aDecoder: NSCoder) {
-      fatalError("init(coder:) has not been implemented")
+    fatalError("init(coder:) has not been implemented")
   }
-
+  
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return 10
   }
