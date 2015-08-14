@@ -12,24 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
   
   var window: UIWindow?
-  var navigationController: UINavigationController?
+  var navigationController: BaseTabBarViewController?
   
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     
     window = UIWindow(frame: UIScreen.mainScreen().bounds)
     
     var mainViewController = createTabBar()
-    
-    navigationController = UINavigationController(rootViewController: mainViewController)
-    
-    window?.rootViewController = navigationController
+        
+    window?.rootViewController = mainViewController
     
     window?.makeKeyAndVisible()
     
-    //application.statusBarHidden = true
-    
-    
-    // Override point for customization after application launch.
     return true
   }
   
@@ -37,16 +31,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let firstVC = ViewController()
     firstVC.tabBarItem.image = UIImage(named: "tabbar-home")
     firstVC.tabBarItem.selectedImage = UIImage(named: "tabbar-home-down")
-    firstVC.title = "首页"
+    firstVC.title = "Home"
     let secondVC = SecondViewController()
     secondVC.tabBarItem.image = UIImage(named: "tabbar-user")
     secondVC.tabBarItem.selectedImage = UIImage(named: "tabbar-user-down")
-    secondVC.title = "用户"
+    secondVC.title = "2nd"
     
     let thirdVC = ThirdViewController()
     thirdVC.tabBarItem.image = UIImage(named: "tabbar-user")
     thirdVC.tabBarItem.selectedImage = UIImage(named: "tabbar-user-down")
-    thirdVC.title = "三号"
+    thirdVC.title = "3rd"
     
     let tbc = BaseTabBarViewController()
     tbc.viewControllers = [firstVC, secondVC, thirdVC]

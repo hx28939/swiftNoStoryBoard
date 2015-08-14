@@ -13,17 +13,9 @@ class BaseTabBarViewController: UITabBarController, UITabBarControllerDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarPosition: UIBarPosition.Any, barMetrics: UIBarMetrics.Default)
+    navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
     navigationController?.navigationBar.shadowImage = UIImage()
     navigationController?.navigationBar.translucent = true
   }
-  
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-  }
 
-  func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController) {
-    
-  }
-  
 }
